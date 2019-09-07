@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'BannikovaC';
+  src: url('../fonts/BannikovaC.otf') format('opentype');
+}
+
+body {
+	background: url(../img/background.png) no-repeat;
+	background-attachment: fixed;
+	background-position: bottom center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.content_1169 {
+	max-width: 1169px;
+	min-width: 200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.logoBlock {
+	padding-top: 65px;
+	display: flex;
+	justify-content: center;
+}
+
+.logoBlock img {
+	width: 194px;
+	height: 207px;
+}
+
+.headerBlock {
+	margin-top: 58px;
+}
+
+.headerBlock p {
+	font-family: 'BannikovaC';
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	opacity: 0.8;
+	margin-bottom: 0;
+}
+
+.headerBlock h1 {
+	font-family: 'BannikovaC';
+	font-size: 144px;
+	line-height: 177px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.headerBlock h6 {
+	font-family: 'BannikovaC';
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-top: 37px;
+	margin-bottom: 0;
+}
+
+.contactsBlock {
+	margin-top: 39px;
+}
+
+.contactsBlock h6 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 26px;
+}
+
+.contactsBlock .location {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 20px;
+	color: #FFFFFF;
+	opacity: 0.8;
+	margin-bottom: 0;
+}
+
+.contactsBlock .adress {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #FFFFFF;
+	opacity: 0.8;
+}
+
+.ninja {
+	visibility: hidden;
+	height: 21px;
+}
+
+.flexy {
+	display: flex;
+	justify-content: space-around;
+}
+
+.specialCity {
+	margin-top: 80px;
+}
+
+.mobileBack {
+	display: none;
+	width: 100vw;
+	height: calc(100vh + 0px);
+	background: url(../img/background.png) no-repeat;
+	background-size: cover;
+	background-position: -300px center;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+	.adressWrap_1 {
+		max-width: 215px;
+		margin: 0 auto;		
+	}
+
+	.spbcol {
+		max-width: 215px;
+		margin: 0 auto;	
+	}
+
+	.ninja {
+		display: none;
+	}
+
+	.flexy {
+		display: block;
+	}
+
+	.contactsBlock h6 {
+		margin-top: 40px;
+	}
+
+	body {
+		background: transparent;
+		max-height: 1000px;		
+	}
+
+	.mobileBack {
+		display: block;
+		z-index: -1;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 586px) {
+	.headerBlock h1 {
+		font-size: 78px;
+	}
+}
+
